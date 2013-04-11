@@ -16,6 +16,13 @@
 		0A36D1FD1716BCD800D60DD5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A36D1FC1716BCD800D60DD5 /* Default.png */; };
 		0A36D1FF1716BCD800D60DD5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A36D1FE1716BCD800D60DD5 /* Default@2x.png */; };
 		0A36D2011716BCD800D60DD5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A36D2001716BCD800D60DD5 /* Default-568h@2x.png */; };
+		0A36D2091716BD0700D60DD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A36D2081716BD0700D60DD5 /* ViewController.m */; };
+		0A36D20E1716BEB400D60DD5 /* carmer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A36D20C1716BEB400D60DD5 /* carmer@2x.png */; };
+		0A36D20F1716BEB400D60DD5 /* carmer.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A36D20D1716BEB400D60DD5 /* carmer.png */; };
+		0A36D2121716C43700D60DD5 /* icon_carmer.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A36D2111716C43700D60DD5 /* icon_carmer.png */; };
+		0A36D2141716EEA800D60DD5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A36D2131716EEA800D60DD5 /* QuartzCore.framework */; };
+		0A36D2161716F6D300D60DD5 /* show.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A36D2151716F6D300D60DD5 /* show.jpg */; };
+		0A36D2201716FAC400D60DD5 /* weibo-cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A36D21F1716FAC400D60DD5 /* weibo-cancel.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,14 @@
 		0A36D1FC1716BCD800D60DD5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0A36D1FE1716BCD800D60DD5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0A36D2001716BCD800D60DD5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0A36D2071716BD0700D60DD5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A36D2081716BD0700D60DD5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A36D20C1716BEB400D60DD5 /* carmer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carmer@2x.png"; sourceTree = "<group>"; };
+		0A36D20D1716BEB400D60DD5 /* carmer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carmer.png; sourceTree = "<group>"; };
+		0A36D2111716C43700D60DD5 /* icon_carmer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_carmer.png; sourceTree = "<group>"; };
+		0A36D2131716EEA800D60DD5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0A36D2151716F6D300D60DD5 /* show.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = show.jpg; sourceTree = "<group>"; };
+		0A36D21F1716FAC400D60DD5 /* weibo-cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weibo-cancel.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A36D2141716EEA800D60DD5 /* QuartzCore.framework in Frameworks */,
 				0A36D1EB1716BCD800D60DD5 /* UIKit.framework in Frameworks */,
 				0A36D1ED1716BCD800D60DD5 /* Foundation.framework in Frameworks */,
 				0A36D1EF1716BCD800D60DD5 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +84,7 @@
 		0A36D1E91716BCD800D60DD5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0A36D2131716EEA800D60DD5 /* QuartzCore.framework */,
 				0A36D1EA1716BCD800D60DD5 /* UIKit.framework */,
 				0A36D1EC1716BCD800D60DD5 /* Foundation.framework */,
 				0A36D1EE1716BCD800D60DD5 /* CoreGraphics.framework */,
@@ -78,8 +95,11 @@
 		0A36D1F01716BCD800D60DD5 /* CarmerSample */ = {
 			isa = PBXGroup;
 			children = (
+				0A36D2101716BEB900D60DD5 /* Resorce */,
 				0A36D1F91716BCD800D60DD5 /* AppDelegate.h */,
 				0A36D1FA1716BCD800D60DD5 /* AppDelegate.m */,
+				0A36D2071716BD0700D60DD5 /* ViewController.h */,
+				0A36D2081716BD0700D60DD5 /* ViewController.m */,
 				0A36D1F11716BCD800D60DD5 /* Supporting Files */,
 			);
 			path = CarmerSample;
@@ -97,6 +117,18 @@
 				0A36D2001716BCD800D60DD5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A36D2101716BEB900D60DD5 /* Resorce */ = {
+			isa = PBXGroup;
+			children = (
+				0A36D2151716F6D300D60DD5 /* show.jpg */,
+				0A36D21F1716FAC400D60DD5 /* weibo-cancel.png */,
+				0A36D2111716C43700D60DD5 /* icon_carmer.png */,
+				0A36D20C1716BEB400D60DD5 /* carmer@2x.png */,
+				0A36D20D1716BEB400D60DD5 /* carmer.png */,
+			);
+			name = Resorce;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +186,11 @@
 				0A36D1FD1716BCD800D60DD5 /* Default.png in Resources */,
 				0A36D1FF1716BCD800D60DD5 /* Default@2x.png in Resources */,
 				0A36D2011716BCD800D60DD5 /* Default-568h@2x.png in Resources */,
+				0A36D20E1716BEB400D60DD5 /* carmer@2x.png in Resources */,
+				0A36D20F1716BEB400D60DD5 /* carmer.png in Resources */,
+				0A36D2121716C43700D60DD5 /* icon_carmer.png in Resources */,
+				0A36D2161716F6D300D60DD5 /* show.jpg in Resources */,
+				0A36D2201716FAC400D60DD5 /* weibo-cancel.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +203,7 @@
 			files = (
 				0A36D1F71716BCD800D60DD5 /* main.m in Sources */,
 				0A36D1FB1716BCD800D60DD5 /* AppDelegate.m in Sources */,
+				0A36D2091716BD0700D60DD5 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
